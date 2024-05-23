@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-width: 100px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 8px 12px;
+  }
+
+  .navbar-nav .dropdown-menu {
+    padding: 8px;
+  }
+
+  Button {
+    width: auto; /* Adjust based on responsiveness needs */
+    height: auto; /* Adjust based on responsiveness needs */
+  }
+}
