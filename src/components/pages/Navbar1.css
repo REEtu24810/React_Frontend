@@ -1,18 +1,46 @@
-@media (max-width: 768px) {
+/* Navbar1.css */
+@media (max-width: 668px) {
   .navbar-brand img {
     max-width: 100px;
   }
 
-  .navbar-nav .nav-link {
+  .navbar-nav .nav-links {
     padding: 8px 12px;
+    color: orange !important; /* Ensure color is applied */
   }
 
   .navbar-nav .dropdown-menu {
     padding: 8px;
   }
 
-  Button {
-    width: auto; /* Adjust based on responsiveness needs */
+  .toggle {
+    background-color: orangered;
+    border: 2px solid white;
+    color: white;
+  }
+
+  .nav-links {
+    color: #000000 !important; /* Dark black color */
+    font-weight: 600; /* Increase font weight */
+  }
+
+  .nav-links:hover {
+    color: orange !important; /* Change color on hover */
+  }
+
+  .btn-custom {
+    background-color: orangered; /* Button background color */
+    color: white; /* Button text color */
     height: auto; /* Adjust based on responsiveness needs */
   }
-}
+  .nav-droupdown{
+    background:black;
+    color: white;
+    border:2px soid white;
+  }
+  .nav-dropdown .dropdown-item {
+    color: white; /* Text color of dropdown items */
+  }
+  
+  }
+

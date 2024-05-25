@@ -1,0 +1,147 @@
+.hero__content {
+    text-align: left;
+    margin-top: 60px;
+   
+  }
+  .about{
+    margin-top:60px;
+    background: white;
+    text-align: justify;
+    background-image: url("../assets/backgraoung.png");
+  }
+  
+  .hero_text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .hero__title1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #020635;
+    text-align: justify;
+  }
+  
+  .uniqe {
+    color: #FF5733; /* Example color for uniqueness */
+  }
+  
+  .hero_pragraph1 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    text-align: justify;
+  }
+  /* Add this to your CSS file */
+  .hero_butn {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero_butn {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero_butn {
+      font-size: 0.75rem;
+    }
+  }
+  
+  
+  /* .hero__img {
+    max-width: 500px;
+    height: auto;
+    margin-right: 10px;
+    /* border-radius: 60%; Makes the image circular */
+    /* animation: bounce 2s infinite; */ */
+  /* } */
+  .hero__img2{
+    max-width: 500px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 60%; /* Makes the image circular */
+    /* animation: bounce 2s infinite; */
+    /* position: absolute; */
+  }
+  .hero__content{
+    text-align:left ;
+  }
+  .hero_butn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero__title {
+      font-size: 35px;
+    }
+  
+    .hero_pragraph {
+      font-size: 16px;
+    }
+  
+    .hero_butn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Add a simple animation to the image */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  /* HeroSection.css */
+  /* HeroSection.css */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes upDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust this value to change the up-down range */
+    }
+  }
+  
+  .animated-image1 {
+    animation: slideInFromLeft 1s ease-in-out forwards, upDown 2s infinite alternate;
+  }
+  
+  @media (max-width: 768px) {
+    .hero__content {
+      text-align: center;
+    }
+  
+    .hero_butn {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero_butn {
+      font-size: 0.75rem;
+    }
+  }
+  

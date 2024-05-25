@@ -12,6 +12,7 @@
   text-align: center; /* Center the content */
   max-width: 800px; /* Limit content width */
   margin: 0 auto; /* Center content horizontally */
+
 }
 
 .title {
@@ -23,21 +24,29 @@
   font-size: 24px;
   font-weight: bold;
   color: white;
-  background-color: orangered; /* Brown color for hero text */
+  background-color: orangered; 
+  text-align: center;/* Brown color for hero text */
 }
 
-.hero__title {
+.hero__title1 {
   font-weight: 800;
-  font-size: 48px; /* Larger title font size */
-  margin-bottom: 20px; /* Space below the title */
+  font-size: 40px;
+  color: #020635;
+  text-align: justify;
 }
 
 .hero_pragraph {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 20px;
   margin-bottom: 40px;
-  color: white; /* Space below the paragraph */
+  color: black; 
+  text-align: justify;/* Space below the paragraph */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  
+  
 }
+
 
 .animated-circle {
   position: absolute;

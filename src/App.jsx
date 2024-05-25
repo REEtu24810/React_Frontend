@@ -3,6 +3,9 @@ import React from 'react'
 import About from './components/pages/about';
 import Navbar1 from './components/pages/Navbar1';
 import Hero from './components/Hero/hero';
+import About1 from './components/pages/about1';
+import Our_Course from './components/pages/our_course';
+import Discuss_page from './components/pages/discuss_page';
 
 
 const App = () => {
@@ -11,6 +14,9 @@ const App = () => {
     <Navbar1/>
     <Hero/>
     <About/>
+    <About1/>
+    <Discuss_page/>
+    <Our_Course/>
     
       {/* <Home></Home> */}
       

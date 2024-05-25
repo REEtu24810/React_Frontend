@@ -1,6 +1,6 @@
-import React from 'react'
-import { Container, Row, Col, Button } from "reactstrap";
-import "./about.css";
+import React from 'react';
+import { Container, Row, Col, Button } from 'reactstrap';
+import './about.css';
 
 const About = () => {
   return (
@@ -9,8 +9,10 @@ const About = () => {
         <Row className="align-items-left justify-content-center">
           <Col lg="6" md="6">
             <div className="hero__content">
-              <h3 className="hero_text">About Logixhun</h3>
-              <h1 className="mb-4 hero__title">
+              <div className="hero_about">
+                <h3 className="hero_text" style={{ width: "180px", height: "30px" }}>About Logixhun</h3>
+              </div>
+              <h1 className="mb-4 hero__title1" style={{ lineHeight: '1.2' }}>
                 Grow Your Business With Logixhunt
               </h1>
               <p className="mb-5 hero_pragraph">
@@ -22,13 +24,12 @@ const About = () => {
             </div>
           </Col>
           <Col>
-            
+            {/* You can add content here */}
           </Col>
         </Row>
       </Container>
-      
     </section>
-  )
+  );
 }
 
 export default About;
