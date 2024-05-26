@@ -8,7 +8,7 @@ const About = () => {
       <Container>
         <Row className="align-items-left justify-content-center">
           <Col lg="6" md="6">
-            <div className="hero__content">
+            <div className="hero__content1">
               <div className="hero_about">
                 <h3 className="hero_text" style={{ width: "180px", height: "30px" }}>About Logixhun</h3>
               </div>

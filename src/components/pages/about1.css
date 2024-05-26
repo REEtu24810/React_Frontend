@@ -49,23 +49,16 @@
     }
   }
   
-  
-  /* .hero__img {
-    max-width: 500px;
-    height: auto;
-    margin-right: 10px;
-    /* border-radius: 60%; Makes the image circular */
-    /* animation: bounce 2s infinite; */ */
-  /* } */
+ 
   .hero__img2{
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
     margin-left: 10px;
     border-radius: 60%; /* Makes the image circular */
     /* animation: bounce 2s infinite; */
     /* position: absolute; */
   }
-  .hero__content{
+  .hero__content1{
     text-align:left ;
   }
   .hero_butn {

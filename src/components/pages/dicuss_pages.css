@@ -1,4 +1,4 @@
-.hero__content {
+.hero__content3 {
     text-align: left;
     margin-top: 60px;
    
@@ -21,7 +21,11 @@
     color: #020635;
     text-align: justify;
   }
-  
+
+  .link{
+    text-decoration: none;
+    color:orangered;
+  }
   .uniqe {
     color: #FF5733; /* Example color for uniqueness */
   }
@@ -34,7 +38,7 @@
   }
   /* Add this to your CSS file */
   .hero_butn {
-    font-size: 20px;
+    background-color: #FF5733;
   }
   
   @media (max-width: 768px) {
